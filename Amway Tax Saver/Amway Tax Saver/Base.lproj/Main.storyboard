@@ -77,7 +77,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
-                            <tableViewSection headerTitle="Section-1" id="zdN-D9-4Gm">
+                            <tableViewSection headerTitle="Profile picture" id="zdN-D9-4Gm">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="hM9-Fl-toF">
                                         <rect key="frame" x="0.0" y="28" width="375" height="44"/>
@@ -105,7 +105,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Section-2" id="05o-ld-htt">
+                            <tableViewSection headerTitle="Login" id="05o-ld-htt">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ght-x0-jBY">
                                         <rect key="frame" x="0.0" y="188" width="375" height="44"/>
@@ -133,7 +133,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Section-3" id="hHv-5g-P5n">
+                            <tableViewSection headerTitle="Settings" id="hHv-5g-P5n">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="egH-f3-WGZ">
                                         <rect key="frame" x="0.0" y="348" width="375" height="44"/>
@@ -161,7 +161,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Section-4" id="cJs-ix-d3U">
+                            <tableViewSection headerTitle="help" id="cJs-ix-d3U">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="edr-BF-GKN">
                                         <rect key="frame" x="0.0" y="508" width="375" height="44"/>
@@ -205,7 +205,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P5Q-o0-p6b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2367" y="-337"/>
+            <point key="canvasLocation" x="2365.5999999999999" y="-337.78110944527737"/>
         </scene>
         <!--Receipts-->
         <scene sceneID="jex-A3-PtP">
