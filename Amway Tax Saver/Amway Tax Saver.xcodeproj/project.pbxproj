@@ -15,7 +15,8 @@
 		BB4111141E6921E3005D22BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB4111121E6921E3005D22BE /* LaunchScreen.storyboard */; };
 		BB41111C1E692B44005D22BE /* ReceiptsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB41111B1E692B44005D22BE /* ReceiptsViewController.swift */; };
 		BB41111E1E692B6E005D22BE /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB41111D1E692B6E005D22BE /* PhotosViewController.swift */; };
-		BBCA1DAF1E6A95ED00CADEB7 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBCA1DAE1E6A95ED00CADEB7 /* SettingsTableViewController.swift */; };
+		BB4E86351E6BA45800DB11EE /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4E86341E6BA45800DB11EE /* SettingsTableViewController.swift */; };
+		BB5BC6D31E6AFCFD000B1101 /* CredentialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB5BC6D21E6AFCFD000B1101 /* CredentialTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +30,8 @@
 		BB4111151E6921E3005D22BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB41111B1E692B44005D22BE /* ReceiptsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptsViewController.swift; sourceTree = "<group>"; };
 		BB41111D1E692B6E005D22BE /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
-		BBCA1DAE1E6A95ED00CADEB7 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		BB4E86341E6BA45800DB11EE /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		BB5BC6D21E6AFCFD000B1101 /* CredentialTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CredentialTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +69,9 @@
 				BB41111B1E692B44005D22BE /* ReceiptsViewController.swift */,
 				BB41111D1E692B6E005D22BE /* PhotosViewController.swift */,
 				BB41110B1E6921E3005D22BE /* SecondViewController.swift */,
-				BBCA1DAE1E6A95ED00CADEB7 /* SettingsTableViewController.swift */,
 				BB41110D1E6921E3005D22BE /* Main.storyboard */,
+				BB4E86341E6BA45800DB11EE /* SettingsTableViewController.swift */,
+				BB5BC6D21E6AFCFD000B1101 /* CredentialTableViewCell.swift */,
 				BB4111101E6921E3005D22BE /* Assets.xcassets */,
 				BB4111121E6921E3005D22BE /* LaunchScreen.storyboard */,
 				BB4111151E6921E3005D22BE /* Info.plist */,
@@ -149,12 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5BC6D31E6AFCFD000B1101 /* CredentialTableViewCell.swift in Sources */,
 				BB41110C1E6921E3005D22BE /* SecondViewController.swift in Sources */,
 				BB41111C1E692B44005D22BE /* ReceiptsViewController.swift in Sources */,
-				BBCA1DAF1E6A95ED00CADEB7 /* SettingsTableViewController.swift in Sources */,
 				BB4111081E6921E3005D22BE /* AppDelegate.swift in Sources */,
 				BB41110A1E6921E3005D22BE /* FirstViewController.swift in Sources */,
 				BB41111E1E692B6E005D22BE /* PhotosViewController.swift in Sources */,
+				BB4E86351E6BA45800DB11EE /* SettingsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +281,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TB65HV6V63;
 				INFOPLIST_FILE = "Amway Tax Saver/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-kimjang.Amway-Tax-Saver";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -291,7 +295,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TB65HV6V63;
 				INFOPLIST_FILE = "Amway Tax Saver/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-kimjang.Amway-Tax-Saver";
 				PRODUCT_NAME = "$(TARGET_NAME)";
